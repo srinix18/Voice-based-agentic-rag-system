@@ -34,11 +34,13 @@ Safety guidelines:
 
 Always be helpful, accurate, and honest about the limits of your knowledge."""
 
-# Create the root agent using ADK's Agent class - pass the function directly
+# Create the root agent using ADK's Agent class - set to a live-capable Gemini model
+# Use a model that supports bidiGenerateContent so the ADK Web UI can open a live
+# websocket conversation (microphone input / streaming audio).
 root_agent = Agent(
-    model='gemini-2.0-flash-exp',
+    model='gemini-2.0-flash-live-001',
     name='financial_rag_agent',
-    description='Financial literacy assistant using NCFE e-Library knowledge base',
+    description='Financial literacy assistant using NCFE e-Library knowledge base (live mode)',
     instruction=SYSTEM_INSTRUCTION,
-    tools=[search_financial_knowledge_base]  # Pass function directly as a callable tool
+    tools=[search_financial_knowledge_base],  # Pass function directly as a callable tool
 )

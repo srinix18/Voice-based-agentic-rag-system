@@ -1,0 +1,21 @@
+{
+  "name": "models/gemini-2.0-flash-live-001",
+  "display_name": "Gemini 2.0 Flash 001",
+  "description": "Gemini 2.0 Flash 001",
+  "version": "001",
+  "endpoints": null,
+  "labels": null,
+  "tuned_model_info": {
+    "base_model": null,
+    "create_time": null,
+    "update_time": null
+  },
+  "input_token_limit": 131072,
+  "output_token_limit": 8192,
+  "supported_actions": [
+    "bidiGenerateContent",
+    "countTokens"
+  ],
+  "default_checkpoint_id": null,
+  "checkpoints": null
+}
