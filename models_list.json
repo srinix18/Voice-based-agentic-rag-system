@@ -1,0 +1,1190 @@
+[
+  {
+    "name": "models/embedding-gecko-001",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-pro-preview-03-25",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-flash-preview-05-20",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-flash",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-flash-lite-preview-06-17",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-pro-preview-05-06",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-pro-preview-06-05",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-pro",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-flash-exp",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-flash",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-flash-001",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-flash-exp-image-generation",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-flash-lite-001",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-flash-lite",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-flash-preview-image-generation",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-flash-lite-preview-02-05",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-flash-lite-preview",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-pro-exp",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-pro-exp-02-05",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-exp-1206",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-flash-thinking-exp-01-21",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-flash-thinking-exp",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-flash-thinking-exp-1219",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-flash-preview-tts",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-pro-preview-tts",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/learnlm-2.0-flash-experimental",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemma-3-1b-it",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemma-3-4b-it",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemma-3-12b-it",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemma-3-27b-it",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemma-3n-e4b-it",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemma-3n-e2b-it",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-flash-latest",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-flash-lite-latest",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-pro-latest",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-flash-lite",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-flash-image-preview",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-flash-image",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-flash-preview-09-2025",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-flash-lite-preview-09-2025",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-robotics-er-1.5-preview",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-computer-use-preview-10-2025",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/embedding-001",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/text-embedding-004",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-embedding-exp-03-07",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-embedding-exp",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-embedding-001",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/aqa",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/imagen-3.0-generate-002",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/imagen-4.0-generate-preview-06-06",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/imagen-4.0-ultra-generate-preview-06-06",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/imagen-4.0-generate-001",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/imagen-4.0-ultra-generate-001",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/imagen-4.0-fast-generate-001",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/veo-2.0-generate-001",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/veo-3.0-generate-preview",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/veo-3.0-fast-generate-preview",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/veo-3.0-generate-001",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/veo-3.0-fast-generate-001",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/veo-3.1-generate-preview",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/veo-3.1-fast-generate-preview",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.0-flash-live-001",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-live-2.5-flash-preview",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-flash-live-preview",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-flash-native-audio-latest",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  },
+  {
+    "name": "models/gemini-2.5-flash-native-audio-preview-09-2025",
+    "supported": null,
+    "raw_keys": [
+      "name",
+      "display_name",
+      "description",
+      "version",
+      "endpoints",
+      "labels",
+      "tuned_model_info",
+      "input_token_limit",
+      "output_token_limit",
+      "supported_actions",
+      "default_checkpoint_id",
+      "checkpoints"
+    ]
+  }
+]

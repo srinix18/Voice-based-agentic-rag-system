@@ -13,6 +13,10 @@ import PyPDF2
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
+try:
+    import torch
+except Exception:
+    torch = None
 
 logger = logging.getLogger(__name__)
 
@@ -23,7 +27,7 @@ class FinancialRAGRetriever:
     Loads PDFs, chunks text, creates FAISS index for semantic search.
     """
     
-    def __init__(self, pdf_directory: str, index_cache_path: str = None):
+    def __init__(self, pdf_directory: str, index_cache_path: str = None, device: str = None):
         """
         Initialize the RAG retriever.
         
@@ -33,7 +37,22 @@ class FinancialRAGRetriever:
         """
         self.pdf_directory = Path(pdf_directory)
         self.index_cache_path = index_cache_path or str(self.pdf_directory.parent / "faiss_index.pkl")
-        self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
+        # Determine device: explicit param > RAG_DEVICE env var > torch.cuda availability > cpu
+        env_device = os.getenv('RAG_DEVICE') if os.getenv('RAG_DEVICE') else None
+        if device:
+            self.device = device
+        elif env_device:
+            self.device = env_device
+        else:
+            try:
+                self.device = 'cuda' if (torch is not None and torch.cuda.is_available()) else 'cpu'
+            except Exception:
+                self.device = 'cpu'
+
+        logger.info(f"Using embedding device: {self.device}")
+
+        # Initialize the SentenceTransformer on the chosen device
+        self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2', device=self.device)
         self.chunks = []
         self.metadata = []
         self.index = None
@@ -139,11 +158,30 @@ class FinancialRAGRetriever:
         # Create embeddings
         logger.info("Creating embeddings...")
         embeddings = self.embedding_model.encode(all_chunks, show_progress_bar=True)
-        
-        # Create FAISS index
+
+        # Create FAISS index on CPU first
         dimension = embeddings.shape[1]
-        self.index = faiss.IndexFlatL2(dimension)
-        self.index.add(np.array(embeddings).astype('float32'))
+        cpu_index = faiss.IndexFlatL2(dimension)
+        cpu_index.add(np.array(embeddings).astype('float32'))
+
+        # If device is GPU and FAISS GPU bindings exist, move index to GPU
+        if str(self.device).startswith('cuda'):
+            try:
+                if hasattr(faiss, 'StandardGpuResources') and hasattr(faiss, 'index_cpu_to_gpu'):
+                    logger.info('FAISS GPU bindings detected - attempting to move index to GPU')
+                    # Create GPU resources and move index (GPU id 0)
+                    gpu_res = faiss.StandardGpuResources()
+                    gpu_index = faiss.index_cpu_to_gpu(gpu_res, 0, cpu_index)
+                    self.index = gpu_index
+                    logger.info('Moved FAISS index to GPU')
+                else:
+                    logger.info('FAISS GPU bindings not available, using CPU index (embeddings computed on GPU)')
+                    self.index = cpu_index
+            except Exception as e:
+                logger.warning(f'Could not move FAISS index to GPU: {e}. Falling back to CPU index.')
+                self.index = cpu_index
+        else:
+            self.index = cpu_index
         
         logger.info(f"FAISS index created with {self.index.ntotal} vectors")
         
@@ -170,7 +208,23 @@ class FinancialRAGRetriever:
             with open(self.index_cache_path, 'rb') as f:
                 cache_data = pickle.load(f)
             
-            self.index = faiss.deserialize_index(cache_data['index'])
+            cpu_index = faiss.deserialize_index(cache_data['index'])
+            # If running with GPU device, attempt to move the loaded CPU index to GPU
+            if str(self.device).startswith('cuda'):
+                try:
+                    if hasattr(faiss, 'StandardGpuResources') and hasattr(faiss, 'index_cpu_to_gpu'):
+                        logger.info('Moving loaded FAISS index to GPU')
+                        gpu_res = faiss.StandardGpuResources()
+                        gpu_index = faiss.index_cpu_to_gpu(gpu_res, 0, cpu_index)
+                        self.index = gpu_index
+                    else:
+                        logger.info('FAISS GPU bindings not available; using CPU index from cache')
+                        self.index = cpu_index
+                except Exception as e:
+                    logger.warning(f'Could not move cached FAISS index to GPU: {e}. Using CPU index.')
+                    self.index = cpu_index
+            else:
+                self.index = cpu_index
             self.chunks = cache_data['chunks']
             self.metadata = cache_data['metadata']
             
