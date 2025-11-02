@@ -1,0 +1,29 @@
+# Financial RAG Agent Requirements
+
+# Core dependencies
+google-adk>=0.1.0
+google-generativeai>=0.8.0
+
+# PDF processing
+PyPDF2>=3.0.0
+
+# Vector store and embeddings
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.0
+
+# ML/NLP utilities
+numpy>=1.24.0
+torch>=2.0.0
+
+# Configuration
+pyyaml>=6.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+
+# Development tools
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
